@@ -1,5 +1,5 @@
 from django.urls import path
-from app.views import SignUpView, LoginView, UserSearchAPIView
+from app.views import SignUpView, UserSearchAPIView
 from app.views import FriendRequestAPIView, FriendRequestDetailAPIView, FriendsListAPIView
 from rest_framework.authtoken.views import obtain_auth_token
 from django.views.decorators.csrf import csrf_exempt
